@@ -132,6 +132,29 @@ button {
 
 /* Articles */
 
+.articles {
+    box-sizing: border-box;
+    background-color: #f3f5f4;
+}
+
+.sub-art {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-article {
+    padding: 16px 16px 32px 16px;
+}
+
+.sub-article img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .articles {
+        display: flex;
+    }
+}
 
 
 /* Mobile-hidden */
