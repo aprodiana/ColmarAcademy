@@ -32,10 +32,6 @@ p {
     color: #cfcfcf;
 }
 
-.text-ctr {
-    text-align: center;
-}
-
 /* Custom rules */
 
 
@@ -109,6 +105,25 @@ button {
     font-size: 18px;
     color: white;
     background-color: #9b9b9b;
+}
+
+@media only screen and (min-width: 768px) {
+    .banner {
+        padding: 32px 24px;
+        flex-direction: row;
+    }
+
+    .banner img {
+        width: 60%;
+    }
+
+    .learn-new {
+        width: 40%;
+    }
+
+    button {
+        background-color: #4a4a4a;
+    }
 }
 
 /* Mobile-hidden */
