@@ -15,6 +15,10 @@ h1 {
     font-size: 30px;
 }
 
+h2 {
+    font-size: 26 px;
+}
+
 h3 {
     font-size: 20px;
 }
@@ -125,6 +129,10 @@ button {
         background-color: #4a4a4a;
     }
 }
+
+/* Articles */
+
+
 
 /* Mobile-hidden */
 
