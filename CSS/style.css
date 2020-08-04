@@ -188,6 +188,16 @@ button {
 
     .sub-art {
         width: 40%;
+        box-sizing: border-box;
+    }
+
+    .sub-article picture {
+        width: 35%;
+        height: auto;
+    }
+
+    .sub-article div {
+        width: 65%;
     }
 
     .sub-article {
@@ -195,14 +205,8 @@ button {
         flex-direction: row;
         border: 1px solid #d8d8d8;
     }
-    .sub-article img {
-        width: 35;
-        height: auto;
-    }
 
 }
-
-
 
 
 /* Mobile-hidden */
