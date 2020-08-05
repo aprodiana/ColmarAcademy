@@ -7,7 +7,7 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h5, p {
     color: #4a4a4a;
 }
 
@@ -142,7 +142,7 @@ button {
     background-color: #f3f5f4;
 }
 
-.articles a {
+.link {
     color: #4b7bc9;
 }
 
@@ -182,8 +182,18 @@ button {
         flex-direction: column;
     }
 
+    .main-article h2 {
+        margin-top: 32px;
+        margin-bottom: 24px;
+    } 
+
     .main-article img {
         width: 100%;
+    }
+
+    .caption {
+        font-size: 16;
+        padding-top: 32px;
     }
 
     .sub-art {
