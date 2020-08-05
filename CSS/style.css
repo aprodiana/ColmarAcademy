@@ -218,6 +218,13 @@ button {
 
 }
 
+/* Start learning */
+
+@media only screen and (min-width: 768px) {
+    .learning h4 {
+        text-transform: uppercase;
+    }
+}
 
 /* Mobile-hidden */
 
