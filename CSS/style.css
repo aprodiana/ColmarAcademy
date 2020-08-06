@@ -305,6 +305,16 @@ button {
     }
 }
 
+/* Thesis exhibits */
+
+.thesis h1 {
+    text-align: center;
+}
+video {
+    width: 100%;
+    height: auto;
+  }
+
 /* Mobile-hidden */
 
 @media only screen and (max-width: 768px) {
