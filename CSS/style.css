@@ -96,14 +96,14 @@ ul a {
 
 /* Banner */
 
-.banner {
+#banner {
     background-color: #d8d8d8;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
 
-.banner img {
+#banner img {
     width: 100%;
     height: auto;
 }
@@ -128,17 +128,20 @@ button {
 }
 
 @media only screen and (min-width: 768px) {
-    .banner {
+    #banner {
         padding: 32px 24px;
         flex-direction: row;
     }
 
-    .banner img {
+    #banner img {
         width: 60%;
     }
 
     .learn-new {
         width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     button {
@@ -148,7 +151,7 @@ button {
 
 /* Articles */
 
-.articles {
+#articles {
     box-sizing: border-box;
     background-color: #f3f5f4;
 }
@@ -178,7 +181,7 @@ button {
 }
 
 @media only screen and (min-width: 768px) {
-    .articles {
+    #articles {
         display: flex;
     }
 
@@ -224,6 +227,7 @@ button {
     .sub-article {
         padding: 16px;
         flex-direction: row;
+        align-items: center;
         border: 1px solid #d8d8d8;
     }
 
@@ -231,12 +235,12 @@ button {
 
 /* Start learning */
 
-.learning {
+#learning {
     padding: 32px 16px;
     border: 1px solid #d8d8d8;
 }
 
-.learning h1 {
+#learning h1 {
     text-align: center;
     padding-bottom: 16px;
 }
@@ -265,12 +269,12 @@ button {
 }
 
 @media only screen and (min-width: 768px) {
-    .learning {
+    #learning {
         padding: 32px 72px;
         background-color: #eaebed;
     }
 
-    .learning h4 {
+    #learning h4 {
         text-transform: uppercase;
     }
 
@@ -281,10 +285,10 @@ button {
 
     .card {
         background-color: white;
-        padding: 0;
+        padding: 0 0 24px 0;
         margin: 16px;
-        width: 320px;
-        height: 340px;
+        width: 340px;
+        height: 370px;
     }
     
     .card img {
@@ -307,9 +311,10 @@ button {
 
 /* Thesis exhibits */
 
-.thesis h1 {
+#thesis h1 {
     text-align: center;
 }
+
 video {
     width: 100%;
     height: auto;
