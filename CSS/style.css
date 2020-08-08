@@ -164,6 +164,7 @@ button {
     flex-direction: column;
 }
 
+/*Inconcistent padding was defined in mock (mobile-view), thus consistent values are used. */
 .sub-article {
     padding: 16px 16px 32px 16px;
     display: flex;
