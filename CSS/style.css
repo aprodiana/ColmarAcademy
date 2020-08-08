@@ -219,6 +219,10 @@ button {
         height: auto;
     }
 
+    .sub-article:hover {
+        background-color: #d8d8d8;
+    }
+
     .sub-article div {
         width: 65%;
         margin: 0 16px;
@@ -370,6 +374,10 @@ video {
     .sub-thesis div {
         width: 65%;
         padding-left: 16px;
+    }
+
+    .sub-thesis:hover {
+        background-color: #d8d8d8;
     }
 }
 
