@@ -187,7 +187,7 @@ button {
     .main-art {
         width: 60%;
         padding: 32px 24px;
-        border: 1px solid #d8d8d8;
+        border-right: 1px solid #eaebed;
     }
 
     .main-article {  
@@ -228,7 +228,7 @@ button {
         padding: 16px;
         flex-direction: row;
         align-items: center;
-        border: 1px solid #d8d8d8;
+        border: 1px solid #eaebed;
     }
 
 }
@@ -237,7 +237,6 @@ button {
 
 #learning {
     padding: 32px 16px;
-    border: 1px solid #d8d8d8;
     background-color: #f3f5f4;
 }
 
@@ -266,6 +265,10 @@ button {
     .card {
         width: 100%;
         flex: 1 1 auto;
+    }
+
+    #learning {
+        border: 1px solid #d8d8d8;
     }
 }
 
